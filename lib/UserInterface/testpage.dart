@@ -91,7 +91,7 @@ class _ContactPageState extends State<ContactPage> {
                               "This meteorological forecasting application was conceived and subsequently    released with the primary aim of serving as an educational project. The construction of     this software was undertaken within the confines of the Flutter framework, utilizing     the Dart programming language. The final product was presented to Shamsipur Technical Vocational College. For the purposes of engaging in dialogue with the developer or furnishing constructive feedback, please do not hesitate to reach out to me via email at the following           address: ",
                         ),
                         TextSpan(
-                          text: "@test@gmail.com",
+                          text: "alirezakazemizadeh5@gmail.com",
                           style: TextStyle(color: Colors.lightBlue),
                         ),
                         TextSpan(
