@@ -1,1 +1,1 @@
-My second try to develope a useful flutter weather application .
+My second try to develop a useful weather application using flutter framework.
