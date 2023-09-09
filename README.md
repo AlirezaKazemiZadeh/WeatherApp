@@ -1,3 +1,4 @@
+.
 My second try to develop a useful weather application using flutter framework.
 .
 ![Mockup](https://github.com/AlirezaKazemiZadeh/WeatherApp/assets/135459650/e9cf8440-ea72-470e-9e6a-eec2f3746fae)
