@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -22,7 +21,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final TextEditingController _cityController = TextEditingController();
   final Constants _constants = Constants();
-  static String API_KEY = 'dd724ee3f22f4236a21151042233108';
+  static String API_KEY = 'YOUR API SHOULD BE HEAR';
 
   String location = 'Tehran';
   String weatherIcon = 'heavycloudy.png';
@@ -38,17 +37,12 @@ class _HomePageState extends State<HomePage> {
 
   String currentWeatherStatus = '';
 
-  //تابع ذخیره فراخوانی api
-
-  //فراخوانی api
-  // در ابتدای صفحه اول، اطلاعات Hive را مقداردهی اولیه کنید
   void _initializeHive() async {
     final appDocumentDir = await getApplicationDocumentsDirectory();
     Hive.init(appDocumentDir.path);
     await Hive.openBox('weatherBox');
   }
 
-// تابع ذخیره اطلاعات فراخوانی API در Hive
   void saveWeatherDataToHive() {
     final weatherBox = Hive.box('weatherBox');
     final weatherStatus = {
@@ -106,7 +100,6 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  //function to return the first two names of the string location
   static String getShortLocationName(String s) {
     List<String> wordList = s.split(" ");
 
@@ -516,6 +509,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-/*
-cross access aligment va main access alighment farqeshon chie?
-*/
