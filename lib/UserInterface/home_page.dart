@@ -404,7 +404,7 @@ class _HomePageState extends State<HomePage> {
                                       dailyForecastWeather:
                                           dailyWeatherForecast))),
                           child: Text(
-                            'Forcasts',
+                            'Forecast',
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 16,
