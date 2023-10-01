@@ -21,7 +21,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final TextEditingController _cityController = TextEditingController();
   final Constants _constants = Constants();
-  static String API_KEY = 'YOUR API SHOULD BE HEAR';
+  static String API_KEY = 'YOUR API SHOULD BE HERE';
 
   String location = 'Tehran';
   String weatherIcon = 'heavycloudy.png';
